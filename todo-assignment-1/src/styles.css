@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+}
+button,
+input {
+  padding: 1vh;
+}
+
+.Input {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.Input button {
+  margin: auto;
+}
+
+.Profile {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Profile > div {
+  border: 1px solid black;
+}
+
+.prof {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.prof > div {
+  border: 1px solid gray;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.display > div {
+  border: 1px solid gray;
+}
+
+.todos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: space-around;
+  text-align: start;
+  padding: 1px 10px;
+}
+.todos button {
+  margin: auto 0;
+}
+.todos h4 {
+  margin: 10px 0;
+}
+
+.Todo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.Todo > div {
+  margin: auto 0;
+}
